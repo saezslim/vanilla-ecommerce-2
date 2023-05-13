@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__content">
+      <div class="header__img">
+        <picture>
+        <source
+           sizes="1920w" 
+           srcset="img/header.avif 1920w" 
+           type="image/avif">
+        <source
+           sizes="1920w" 
+           srcset="img/header.webp 1920w" 
+           type="image/webp">
+        <source
+           sizes="1920w" 
+           srcset="img/header.jpg 1920w" 
+           type="image/jpeg">
+        <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="1000" height="500">
+        </picture>
+      </div> <!--.header__img-->
+      <div class="header__text">
+        <p class="product__tagline">Sonido Profesional</p>
+        <h1 class="product__name green-degraded">TechPRO</h1>
+        <p class="product__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit autem impedit vel totam, deleniti saepe explicabo eius minima a, laudantium, iusto doloremque possimus nisi architecto atque numquam vero quo alias?</p>
+        <p class="product__price">Desde <span>$299</span></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container features__grid">
+      <div class="feature">
+        <img src="/img/icono-sonido.svg" alt="Icono de gran sonido">
+        <h3>GRAN SONIDO</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis convallis porttitor sodales. Duis accumsan lorem neque.</p>
+      </div>
+      <div class="feature">
+        <img src="/img/icono-garantia.svg" alt="Icono de garantía de por vida">
+        <h3>GARANTÍA DE POR VIDA</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis convallis porttitor sodales. Duis accumsan lorem neque.</p>
+      </div>
+      <div class="feature">
+        <img src="/img/icono-bateria.svg" alt="Icono de batería">
+        <h3>+20 HORAS DE BATERIA</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis convallis porttitor sodales. Duis accumsan lorem neque.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
