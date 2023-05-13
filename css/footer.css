@@ -1,0 +1,9 @@
+.footer p{
+  display: block;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 1.25rem;
+  color: var(--clr-blue);
+  text-transform: uppercase;
+  padding: 1.25em;
+}

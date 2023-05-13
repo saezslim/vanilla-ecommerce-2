@@ -4,7 +4,7 @@
   color: var(--clr-white);
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 992px) { 
   .header__content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,7 +20,7 @@
   margin: 0;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 992px) { 
   .header__text{
     text-align: left;
     display: flex;
